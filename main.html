@@ -1,16 +1,83 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Architectural Information</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+    .imageContainer {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .imageContainer img {
+      max-width: 100%;
+      height: auto;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 20px 0;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      text-align: center;
+      padding: 8px;
+    }
+    td img {
+      width: 100px;
+      height: auto;
+      border-radius: 4px;
+    }
+    .wide {
+      width: 600px;
+    }
+    .narrow {
+      width: 200px;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <h1>Architectural Information</h1>
 
+  <!-- Image Container -->
+  <div class="imageContainer">
+    <img src="https://media.istockphoto.com/id/473849812/photo/female-architect.jpg?s=612x612&w=0&k=20&c=sn4gWawpyE_wPQyl7tURhnj6sIsmrGitbpuHDTOEnDc=" alt="Sample Architecture">
+  </div>
+
+  <!-- Table Structure -->
+  <table>
+    <tr>
+      <td class="narrow"><img src="https://st2.depositphotos.com/2001755/8564/i/450/depositphotos_85647140-stock-photo-beautiful-landscape-with-birds.jpg" alt="Image 1"></td>
+      <td class="wide">This is some text content describing the architecture in detail.</td>
+      <td class="narrow"><img src="https://st2.depositphotos.com/2001755/8564/i/450/depositphotos_85647140-stock-photo-beautiful-landscape-with-birds.jpg" alt="Image 2"></td>
+    </tr>
+    </tr>
+    <tr>
+      <td class="narrow"><img src="https://st2.depositphotos.com/2001755/8564/i/450/depositphotos_85647140-stock-photo-beautiful-landscape-with-birds.jpg" alt="Image 1"></td>
+      <td class="wide">This is some text content describing the architecture in detail.</td>
+      <td class="narrow"><img src="https://st2.depositphotos.com/2001755/8564/i/450/depositphotos_85647140-stock-photo-beautiful-landscape-with-birds.jpg" alt="Image 2"></td>
+    
+    </tr>
+    <tr>
+       <td class="narrow"><img src="https://st2.depositphotos.com/2001755/8564/i/450/depositphotos_85647140-stock-photo-beautiful-landscape-with-birds.jpg" alt="Image 1"></td>
+      <td class="wide">This is some text content describing the architecture in detail.</td>
+      <td class="narrow"><img src="https://st2.depositphotos.com/2001755/8564/i/450/depositphotos_85647140-stock-photo-beautiful-landscape-with-birds.jpg" alt="Image 2"></td>
+    
+    </tr>
+  </table>
 </body>
-
 </html>
